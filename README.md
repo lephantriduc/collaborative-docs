@@ -69,7 +69,7 @@ Bây giờ ứng dụng sẽ chạy trên http://localhost:5173
 
 2. Config server 
 
-   - `cd` đến folder `/server` và sau đó thêm một file mới:
+   - Trong folder `/server`, thêm file này:
    ```.env
    DATABASE_URL="mongodb://localhost:27017"
    CLIENT_ORIGIN="http://localhost:5173"
@@ -84,10 +84,9 @@ Bây giờ ứng dụng sẽ chạy trên http://localhost:5173
 
 Bây giờ máy chủ backend sẽ chạy trên http://localhost:3000
 
-6. Config client
+3. Config client
 
-   - `cd` đến folder `/client` và sau đó thêm một file mới:
-
+   - Trong folder `/client`, thêm file này:
    ```.env
    VITE_SERVER_URL="http://localhost:3000"
    ``` 
