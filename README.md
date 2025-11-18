@@ -30,8 +30,13 @@ Những gì bạn cần để có thể chạy ứng dụng cục bộ:
 - npm 
 
 ## 🐋 Cài đặt (với Docker) - **RECOMMENDED**:
+1. Clone repo
 
-1. Thiết lập các biến môi trường:
+   ```sh
+   git clone https://github.com/lephantriduc/collaborative-docs
+   ```
+
+2. Thiết lập các biến môi trường:
    Thêm các biến môi trường:
    - Trong folder `/server`, thêm file `.env`:
 
@@ -46,7 +51,7 @@ Những gì bạn cần để có thể chạy ứng dụng cục bộ:
    ``` 
      
 
-2. Chạy lệnh sau trong folder gốc: 
+3. Chạy lệnh sau trong folder gốc: 
     ```sh
     docker-compose up
     ```
@@ -60,12 +65,7 @@ Bây giờ ứng dụng sẽ chạy trên http://localhost:5173
 
    ```sh
    git clone https://github.com/lephantriduc/collaborative-docs
-   ```
-
-   - Hoặc nếu bạn sử dụng SSH:
-   ```sh
-   git clone git@github.com:lephantriduc/collaborative-docs.git
-   ```
+   ``` 
 
 2. Config server 
 
